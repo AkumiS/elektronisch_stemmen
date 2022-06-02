@@ -1,0 +1,98 @@
+/*----------body------------*/
+#bas{
+    margin-left: 40%;
+    align-items: center;
+    font-size: 400%;
+    margin-top: 20%;
+}
+/*----------------------------*/
+
+/*---------Verkooporder Form---------*/
+.parent{
+    background-color: #ffffff;
+    border: solid black;
+    padding: 25px;
+    position:relative;
+    display:inline-block;
+    margin-top: 300px;
+    margin-left: -183.5px;
+    left: 50%;
+    transform:translateY(-50%);
+}
+.parent table, th, td ,tr{
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+}
+.parent a{
+    margin-left: -100px;
+}
+
+.loginMsg{
+    color: #770000;
+}
+.table{
+    margin-left: 26%;
+    margin-top: 3%;
+}
+/*----------------------------*/
+/*Zijkant navbar*/
+/*--------------*/
+#check{
+    display:none;
+}
+#icone{
+    color: #515151;
+    cursor: pointer;
+    padding: 12px 62px;
+    position: fixed;
+    top:1%;
+    z-index: 999;
+}
+#check:checked ~ #icone{
+    color: black;
+}
+.bar{
+    background-color: #5f68f5;
+    height: 100%;
+    width: 244px;
+    /*padding-bottom: 50px;*/
+    position: fixed;
+    top:0;
+    transition: all .2s linear;
+    box-shadow: 5px 0px 5px #515151;
+    left: -251px;
+    z-index: 998;
+
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top:150px;
+
+}
+nav a{
+    text-decoration: none;
+
+}
+.link{
+    padding: 10px 0 10px 30px;
+    font-family: Arial;
+    font-size: 16pt;
+    transition: all .2s linear;
+    color: #000000;
+    border-bottom: 6px solid #5f68f5;
+
+}
+.link:hover{
+    background-color: #212529;
+    color: antiquewhite;
+}
+#check:checked ~ .bar{
+    transform: translateX(251px);
+}
+#knop{
+    display: none;
+}
+/*--------------------*/
+/*Eind van zijkant bar*/
